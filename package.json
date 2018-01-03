@@ -1,0 +1,15 @@
+{
+  "name": "ToruAdventureBot",
+  "version": "1.0.0",
+  "description": "Discord bot for sharing custom multiple-choice adventure games",
+  "main": "bot.js",
+  "repository": "git@github.com:weberjc/ToruAdventureBot.git",
+  "author": "Jennifer Weber",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "js-xlsx": "^0.8.22",
+    "mongodb": "^3.0.1",
+    "request": "^2.83.0"
+  }
+}

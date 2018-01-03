@@ -1,0 +1,14 @@
+
+function checkCustomCommands(message, command, args) {
+  let isCustomCommand = true;
+  switch(command) {
+    case 'specialcommand':
+      message.channel.send('special command received');
+      break;
+    default:
+      isCustomCommand = false;
+  }
+  return isCustomCommand;
+}
+
+module.exports = checkCustomCommands;

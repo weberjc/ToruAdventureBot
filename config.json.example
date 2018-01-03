@@ -1,0 +1,8 @@
+{
+  "token": "[BOT_TOKEN]",
+  "prefix": "toru ",
+  "unknownCommandString": `I do not not understand the command.`,
+  "dbNamePrefix": "ToruAdventure",
+  "dbUrl": "mongodb://localhost:27017",
+  "botUserId": "[BOT_USER_ID]",
+}
