@@ -418,7 +418,7 @@ function playGame(message, gameId, doRestart, dbGameId) {
           }
         }
         const setValues = {
-          lastGame: dbGameId,
+          lastGameId: dbGameId,
         }
         if (doRestart) {
           setValues[`gameState.${dbGameId}.lastStepId`] = gameInfo.firstStepId;
