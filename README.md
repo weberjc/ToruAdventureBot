@@ -24,15 +24,15 @@ Uses:
 
 
 # Game Spreadsheet format
-  | Spreadsheet|                |                |                |                    |
-  | ---------- | -------------- | -------------- | -------------- | ------------------ |
-  |  game      | [gameId]       | [gameName]     |  [gameImage]   |  [gameDescription] |
-  |  step      | [stepId]       | [stepText]     |                |                    |
-  |  choice    | [choiceId]     | [choiceName]   |  [choiceText]  |  [nextStepId]      |
-  |  choice    | [choiceId]     | [choiceName]   |  [choiceText]  |  [nextStepId]      |
-  |  step      | [stepId]       | [stepText]     |                |                    |
-  |  choice    | [choiceId]     | [choiceName]   |  [choiceText]  |  [nextStepId]      |
-  |  choice    | [choiceId]     | [choiceName]   |  [choiceText]  |  [nextStepId]      |
+  | Spreadsheet|              |                |                |                   |
+  | ---------- | ------------ | -------------- | -------------- | ----------------- |
+  |  game      | [gameId]     | [gameName]    | [gameImage]     | [gameDescription] |
+  |  step      | [stepId]     | [stepText]    | [optionalImage] |                   |
+  |  choice    | [choiceId]   | [choiceName]  | [choiceText]    | [nextStepId]      |
+  |  choice    | [choiceId]   | [choiceName]  | [choiceText]    | [nextStepId]      |
+  |  step      | [stepId]     | [stepText]    | [optionalImage] |                   |
+  |  choice    | [choiceId]   | [choiceName]  | [choiceText]    | [nextStepId]      |
+  |  choice    | [choiceId]   | [choiceName]  | [choiceText]    | [nextStepId]      |
 
 # To Use:
 * copy config.json.example to config.json and add in a discord bot token
